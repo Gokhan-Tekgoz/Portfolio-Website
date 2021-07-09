@@ -1,0 +1,196 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+/* nav */
+
+/* .logo{
+	color:white;
+	font-weight: 800;
+	font-size: 32px !important;
+	text-decoration: none;
+} */
+
+.navbar-brand img{
+	height: 74px;
+	width: 114px;
+}
+
+.navbar{
+font-size: 21px;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 800;
+letter-spacing: 1px;
+background:rgba(0, 0, 0, 0.74) !important;
+}
+
+.nav-link{
+	color: white !important;	
+}
+
+
+.emptiness{
+	margin-top: 48px;
+}
+
+
+.slider{
+	height: 848px;
+}
+
+.nav-link:hover{
+	color: #1b78d7 !important;
+}
+
+
+/* Über mich */
+
+.about2{
+	margin-top: 24px;
+}
+
+.title-über{
+	font-size: 24px;
+	color: #444444;
+    font-weight: 600;
+	font-family:sans-serif;
+    text-transform: uppercase;
+}
+
+.title-über1 {
+    color: #444444 !important;
+}
+
+.title-über-mich{
+	margin-top: 104px;
+}
+
+.title-web{
+	font-size: 24px;
+	color: #444444;
+    font-weight: 600;
+	font-family:sans-serif;
+}
+
+.img-fluid{
+	height: 848px;
+	width: 100%;
+}
+
+.img-fluid1{
+	height: 348px;
+	width: 100%;
+}
+
+/* Skills */
+
+.skills{
+	height: 224px;
+}
+.skills1{
+	height: 224px;
+}
+
+.portfolio-title{
+	font-size: 24px;
+	color: #444444;
+    font-weight: 700;
+	font-family:sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+/* Portfolio */
+
+#portfolio .col-md-3{
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	text-align: center;
+}
+
+#portfolio h4{
+	color: black;
+}
+
+#portfolio .fas{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.container-image{
+	position: relative;
+	cursor: pointer;
+}
+
+.overlay-image{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #1b78d7;
+	opacity: 0;
+	transition: 1s ease;
+}
+
+.container-image:hover .overlay-image{
+	opacity: .7;
+}
+
+.title{
+	height: 104px;
+	width: 100%;
+}
+
+.margin-top{
+	margin-top: 104px;
+}
+
+.portfolio-4{
+	height: 308px;
+}
+
+.text-image{
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+ /* Contact  */
+
+.contact-title{
+	margin-top: 124px;
+}
+
+.title-contact{
+	font-size: 24px;
+	color: #444444;
+    font-weight: 700;
+	font-family:sans-serif;
+    text-transform: uppercase;
+}
+
+.title-contact1{
+	font-size: 24px;
+	color: white;
+    font-weight: 700;
+	font-family:sans-serif;
+    text-transform: uppercase;
+	padding-top: 8px;
+}
+
+.footer {
+
+	margin-top: 14px;
+	background-color: #1b78d7;
+}
